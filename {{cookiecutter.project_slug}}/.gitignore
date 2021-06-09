@@ -1,0 +1,79 @@
+# Build-only files
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/*
+CMakeFiles
+*.target.xml
+*.exe.config
+CTestTestfile.cmake
+CMakeScripts
+Testing
+install_manifest.txt
+compile_commands.json
+__pycache__/
+*.txt.user.*
+
+*.directory
+
+*.autosave
+
+# Prerequisites
+*.d
+
+# Mac OS X files
+*.DS_Store
+
+# ctag files
+.tags
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Editors
+.vscode
+.idea/
+
+# coverage results
+coverage
+
+# Ignore Unix backup files
+*~
+
+# Ignore build artifacts
+bin
+build
+out
+
+# Test results
+Testing/
+
+# log
+*.log
+
